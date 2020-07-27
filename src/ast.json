@@ -1,0 +1,638 @@
+{
+    "type": "File",
+    "start": 0,
+    "end": 159,
+    "loc": {
+        "start": {
+            "line": 1,
+            "column": 0
+        },
+        "end": {
+            "line": 9,
+            "column": 0
+        }
+    },
+    "errors": [],
+    "program": {
+        "type": "Program",
+        "start": 0,
+        "end": 159,
+        "loc": {
+            "start": {
+                "line": 1,
+                "column": 0
+            },
+            "end": {
+                "line": 9,
+                "column": 0
+            }
+        },
+        "sourceType": "module",
+        "interpreter": null,
+        "body": [
+            {
+                "type": "ImportDeclaration",
+                "start": 0,
+                "end": 26,
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 26
+                    }
+                },
+                "specifiers": [
+                    {
+                        "type": "ImportDefaultSpecifier",
+                        "start": 7,
+                        "end": 10,
+                        "loc": {
+                            "start": {
+                                "line": 1,
+                                "column": 7
+                            },
+                            "end": {
+                                "line": 1,
+                                "column": 10
+                            }
+                        },
+                        "local": {
+                            "type": "Identifier",
+                            "start": 7,
+                            "end": 10,
+                            "loc": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 7
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 10
+                                },
+                                "identifierName": "add"
+                            },
+                            "name": "add"
+                        }
+                    }
+                ],
+                "source": {
+                    "type": "StringLiteral",
+                    "start": 16,
+                    "end": 26,
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 16
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 26
+                        }
+                    },
+                    "extra": {
+                        "rawValue": "./add.js",
+                        "raw": "\"./add.js\""
+                    },
+                    "value": "./add.js"
+                }
+            },
+            {
+                "type": "ImportDeclaration",
+                "start": 27,
+                "end": 64,
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 37
+                    }
+                },
+                "specifiers": [
+                    {
+                        "type": "ImportSpecifier",
+                        "start": 35,
+                        "end": 40,
+                        "loc": {
+                            "start": {
+                                "line": 2,
+                                "column": 8
+                            },
+                            "end": {
+                                "line": 2,
+                                "column": 13
+                            }
+                        },
+                        "imported": {
+                            "type": "Identifier",
+                            "start": 35,
+                            "end": 40,
+                            "loc": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 8
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 13
+                                },
+                                "identifierName": "minus"
+                            },
+                            "name": "minus"
+                        },
+                        "local": {
+                            "type": "Identifier",
+                            "start": 35,
+                            "end": 40,
+                            "loc": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 8
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 13
+                                },
+                                "identifierName": "minus"
+                            },
+                            "name": "minus"
+                        }
+                    }
+                ],
+                "source": {
+                    "type": "StringLiteral",
+                    "start": 47,
+                    "end": 63,
+                    "loc": {
+                        "start": {
+                            "line": 2,
+                            "column": 20
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 36
+                        }
+                    },
+                    "extra": {
+                        "rawValue": "./lib/minus.js",
+                        "raw": "\"./lib/minus.js\""
+                    },
+                    "value": "./lib/minus.js"
+                }
+            },
+            {
+                "type": "VariableDeclaration",
+                "start": 66,
+                "end": 87,
+                "loc": {
+                    "start": {
+                        "line": 4,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 4,
+                        "column": 21
+                    }
+                },
+                "declarations": [
+                    {
+                        "type": "VariableDeclarator",
+                        "start": 72,
+                        "end": 86,
+                        "loc": {
+                            "start": {
+                                "line": 4,
+                                "column": 6
+                            },
+                            "end": {
+                                "line": 4,
+                                "column": 20
+                            }
+                        },
+                        "id": {
+                            "type": "Identifier",
+                            "start": 72,
+                            "end": 75,
+                            "loc": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 6
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 9
+                                },
+                                "identifierName": "sum"
+                            },
+                            "name": "sum"
+                        },
+                        "init": {
+                            "type": "CallExpression",
+                            "start": 78,
+                            "end": 86,
+                            "loc": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 12
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 20
+                                }
+                            },
+                            "callee": {
+                                "type": "Identifier",
+                                "start": 78,
+                                "end": 81,
+                                "loc": {
+                                    "start": {
+                                        "line": 4,
+                                        "column": 12
+                                    },
+                                    "end": {
+                                        "line": 4,
+                                        "column": 15
+                                    },
+                                    "identifierName": "add"
+                                },
+                                "name": "add"
+                            },
+                            "arguments": [
+                                {
+                                    "type": "NumericLiteral",
+                                    "start": 82,
+                                    "end": 83,
+                                    "loc": {
+                                        "start": {
+                                            "line": 4,
+                                            "column": 16
+                                        },
+                                        "end": {
+                                            "line": 4,
+                                            "column": 17
+                                        }
+                                    },
+                                    "extra": {
+                                        "rawValue": 1,
+                                        "raw": "1"
+                                    },
+                                    "value": 1
+                                },
+                                {
+                                    "type": "NumericLiteral",
+                                    "start": 84,
+                                    "end": 85,
+                                    "loc": {
+                                        "start": {
+                                            "line": 4,
+                                            "column": 18
+                                        },
+                                        "end": {
+                                            "line": 4,
+                                            "column": 19
+                                        }
+                                    },
+                                    "extra": {
+                                        "rawValue": 2,
+                                        "raw": "2"
+                                    },
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "kind": "const"
+            },
+            {
+                "type": "VariableDeclaration",
+                "start": 88,
+                "end": 116,
+                "loc": {
+                    "start": {
+                        "line": 5,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 5,
+                        "column": 28
+                    }
+                },
+                "declarations": [
+                    {
+                        "type": "VariableDeclarator",
+                        "start": 94,
+                        "end": 115,
+                        "loc": {
+                            "start": {
+                                "line": 5,
+                                "column": 6
+                            },
+                            "end": {
+                                "line": 5,
+                                "column": 27
+                            }
+                        },
+                        "id": {
+                            "type": "Identifier",
+                            "start": 94,
+                            "end": 102,
+                            "loc": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 6
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 14
+                                },
+                                "identifierName": "division"
+                            },
+                            "name": "division"
+                        },
+                        "init": {
+                            "type": "CallExpression",
+                            "start": 105,
+                            "end": 115,
+                            "loc": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 17
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 27
+                                }
+                            },
+                            "callee": {
+                                "type": "Identifier",
+                                "start": 105,
+                                "end": 110,
+                                "loc": {
+                                    "start": {
+                                        "line": 5,
+                                        "column": 17
+                                    },
+                                    "end": {
+                                        "line": 5,
+                                        "column": 22
+                                    },
+                                    "identifierName": "minus"
+                                },
+                                "name": "minus"
+                            },
+                            "arguments": [
+                                {
+                                    "type": "NumericLiteral",
+                                    "start": 111,
+                                    "end": 112,
+                                    "loc": {
+                                        "start": {
+                                            "line": 5,
+                                            "column": 23
+                                        },
+                                        "end": {
+                                            "line": 5,
+                                            "column": 24
+                                        }
+                                    },
+                                    "extra": {
+                                        "rawValue": 2,
+                                        "raw": "2"
+                                    },
+                                    "value": 2
+                                },
+                                {
+                                    "type": "NumericLiteral",
+                                    "start": 113,
+                                    "end": 114,
+                                    "loc": {
+                                        "start": {
+                                            "line": 5,
+                                            "column": 25
+                                        },
+                                        "end": {
+                                            "line": 5,
+                                            "column": 26
+                                        }
+                                    },
+                                    "extra": {
+                                        "rawValue": 1,
+                                        "raw": "1"
+                                    },
+                                    "value": 1
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "kind": "const"
+            },
+            {
+                "type": "ExpressionStatement",
+                "start": 118,
+                "end": 135,
+                "loc": {
+                    "start": {
+                        "line": 7,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 7,
+                        "column": 17
+                    }
+                },
+                "expression": {
+                    "type": "CallExpression",
+                    "start": 118,
+                    "end": 134,
+                    "loc": {
+                        "start": {
+                            "line": 7,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 16
+                        }
+                    },
+                    "callee": {
+                        "type": "MemberExpression",
+                        "start": 118,
+                        "end": 129,
+                        "loc": {
+                            "start": {
+                                "line": 7,
+                                "column": 0
+                            },
+                            "end": {
+                                "line": 7,
+                                "column": 11
+                            }
+                        },
+                        "object": {
+                            "type": "Identifier",
+                            "start": 118,
+                            "end": 125,
+                            "loc": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 7
+                                },
+                                "identifierName": "console"
+                            },
+                            "name": "console"
+                        },
+                        "property": {
+                            "type": "Identifier",
+                            "start": 126,
+                            "end": 129,
+                            "loc": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 8
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 11
+                                },
+                                "identifierName": "log"
+                            },
+                            "name": "log"
+                        },
+                        "computed": false
+                    },
+                    "arguments": [
+                        {
+                            "type": "Identifier",
+                            "start": 130,
+                            "end": 133,
+                            "loc": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 12
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 15
+                                },
+                                "identifierName": "sum"
+                            },
+                            "name": "sum"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "ExpressionStatement",
+                "start": 136,
+                "end": 158,
+                "loc": {
+                    "start": {
+                        "line": 8,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 8,
+                        "column": 22
+                    }
+                },
+                "expression": {
+                    "type": "CallExpression",
+                    "start": 136,
+                    "end": 157,
+                    "loc": {
+                        "start": {
+                            "line": 8,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 21
+                        }
+                    },
+                    "callee": {
+                        "type": "MemberExpression",
+                        "start": 136,
+                        "end": 147,
+                        "loc": {
+                            "start": {
+                                "line": 8,
+                                "column": 0
+                            },
+                            "end": {
+                                "line": 8,
+                                "column": 11
+                            }
+                        },
+                        "object": {
+                            "type": "Identifier",
+                            "start": 136,
+                            "end": 143,
+                            "loc": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "column": 7
+                                },
+                                "identifierName": "console"
+                            },
+                            "name": "console"
+                        },
+                        "property": {
+                            "type": "Identifier",
+                            "start": 144,
+                            "end": 147,
+                            "loc": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 8
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "column": 11
+                                },
+                                "identifierName": "log"
+                            },
+                            "name": "log"
+                        },
+                        "computed": false
+                    },
+                    "arguments": [
+                        {
+                            "type": "Identifier",
+                            "start": 148,
+                            "end": 156,
+                            "loc": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 12
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "column": 20
+                                },
+                                "identifierName": "division"
+                            },
+                            "name": "division"
+                        }
+                    ]
+                }
+            }
+        ],
+        "directives": []
+    },
+    "comments": []
+}
